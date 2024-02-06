@@ -1,0 +1,14 @@
+.child_1 {
+  width: 300px;
+  height: 300px;
+  background-color: brown;
+}
+.child_2 {
+  width: 300px;
+  height: 300px;
+  background-color: chartreuse;
+}
+.parent {
+  display: flex;
+  justify-content: space-around;
+}
