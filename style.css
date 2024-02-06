@@ -1,38 +1,40 @@
 .child_1 {
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
   background-color: brown;
 }
 .child_2 {
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
   background-color: chartreuse;
 }
 .child_3 {
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
   background-color: chocolate;
 }
 .child_4 {
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
   background-color: aqua;
 }
 .child_5 {
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
   background-color: coral;
 }
 .child_6 {
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
   background-color: darkblue;
 }
 .child_7 {
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
   background-color: darkmagenta;
 }
 .parent {
-
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
