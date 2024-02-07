@@ -6,7 +6,7 @@
 .child_2 {
   width: 300px;
   height: 300px;
-  background-color: chartreuse;
+  background-color: rgb(238, 15, 212);
 }
 .child_3 {
   width: 300px;
@@ -16,7 +16,7 @@
 .child_4 {
   width: 300px;
   height: 300px;
-  background-color: aqua;
+  background-color: rgb(13, 227, 5);
 }
 .child_5 {
   width: 300px;
@@ -43,7 +43,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-}
-div[class*="child"] {
-  margin-top: 50px;
+  align-content: space-around;
+  height: 1000px;
+  background-color: aquamarine;
 }
