@@ -1,72 +1,32 @@
-.child_1 {
-  width: 300px;
-  height: 300px;
-  background-color: brown;
-}
-.child_2 {
-  width: 300px;
-  height: 300px;
-  background-color: rgb(238, 15, 212);
-}
-.child_3 {
-  width: 300px;
-  height: 300px;
-  background-color: chocolate;
-}
-.child_4 {
-  width: 300px;
-  height: 300px;
-  background-color: rgb(13, 227, 5);
-}
-.child_5 {
-  width: 300px;
-  height: 300px;
-  background-color: coral;
-}
-.child_6 {
-  width: 300px;
-  height: 300px;
-  background-color: darkblue;
-}
-.child_7 {
-  width: 300px;
-  height: 300px;
-  background-color: darkmagenta;
-}
-.child_8 {
-  width: 300px;
-  height: 300px;
-  background-color: darkgoldenrod;
-}
-.pedar {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-content: space-around;
-  height: 1000px;
-  background-color: aquamarine;
-}
-/* page2 : */
 .container {
-  width: 1800px;
+  width: 1400px;
   height: 1000px;
-  background-color: rgb(21, 192, 24);
+  background-color: aqua;
   display: flex;
   justify-content: space-between;
-  margin: 20px auto;
-  /* flex-wrap: wrap;
-  flex-direction: row; */
-  flex-flow: row wrap;
-  align-items: stretch;
+  flex-wrap: wrap;
+  align-content: space-between;
 }
-.container div:nth-child(even) {
+div[class*="child"]:nth-child(even) {
   width: 200px;
-  /* height: 200px; */
-  background-color: red;
+  height: 300px;
+  background-color: brown;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  text-align: center;
 }
-.container div:nth-child(odd) {
+div[class*="child"]:nth-child(odd) {
   width: 200px;
-  /* height: 200px; */
-  background-color: rgb(1, 102, 243);
+  height: 300px;
+  background-color: rgb(12, 235, 0);
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+/* div.child15 {
+  flex-grow: 1;
+} */
+div.child16 {
+  flex-grow: 1;
 }
